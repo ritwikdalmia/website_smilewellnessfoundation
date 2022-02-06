@@ -1,0 +1,233 @@
+/* 
+---------------------------------------------
+Pricing
+--------------------------------------------- 
+*/
+
+.pricing-tables .tables-left-dec img {
+    width: 418px;
+    height: 851px;
+    left: 0;
+    top: 120px;
+    position: absolute;
+    z-index: 1;
+  }
+  
+  .pricing-tables .tables-right-dec img {
+    width: 359px;
+    height: 848px;
+    right: 0;
+    top: 45px;
+    position: absolute;
+    z-index: 1
+  }
+  
+  .pricing-tables {
+    z-index: 2;
+    position: relative;
+    padding-top: 120px;
+    margin-top: 0px;
+  }
+  
+  .pricing-tables .section-heading {
+    text-align: center;
+    margin-bottom: 60px;
+  }
+  
+  .pricing-tables .section-heading h2 {
+    text-align: center;
+    margin: 0px 60px 0px 60px;
+    margin-bottom: -5px;
+    position: relative;
+    z-index: 1;
+  }
+  
+  .pricing-tables .item3 {
+    position: relative;
+    z-index: 2;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 60px;
+    text-align: center;
+    box-shadow: 0px 0px 15px rgba(0,0,0,0.1);
+    border-radius: 45px;
+    margin-left: 10px;
+  }
+  
+  .pricing-tables .item3 h4 {
+    font-size: 20px;
+    font-weight: 700;
+    color: #2a2a2a;
+  }
+  
+  .pricing-tables .item3 em {
+    color: #ff695f;
+    font-size: 15px;
+    display: block;
+    margin-top: 25px;
+    text-decoration: line-through;
+    font-style: normal;
+  }
+  
+  .pricing-tables .item3 span {
+    font-size: 44px;
+    color: #ff695f;
+    font-weight: 700;
+    display: block;
+    margin-top: -5px;
+  }
+  
+  .pricing-tables .item3 ul {
+    margin-top: 30px;
+  }
+  
+  .pricing-tables .item3 ul li {
+    display: block;
+    font-size: 15px;
+    color: #7a7a7a;
+    margin-bottom: 20px;
+  }
+  
+  .pricing-tables .item3 .main-blue-button {
+    margin-top: 40px;
+  }
+  
+
+  .pricing-tables .first-item {
+    background-image: url(../images/first-plan-bg.png);
+  }
+  
+  .pricing-tables .second-item {
+    background-image: url(../images/second-plan-bg.png);
+  }
+  
+  .pricing-tables .third-item {
+    background-image: url(../images/third-plan-bg.png);
+  }
+  .pricing-tables .fourth-item {
+    background-image: url(../images/third-plan-bg.png);
+  }
+
+  .divider1 {
+    display: block;
+    margin-top: 16px;
+    margin-bottom: 32px;
+    margin-left: 220px;
+    width: 100px;
+    height: 3px;
+    border-radius: 40px;
+    background: linear-gradient(135deg,#ce76f7,#f2a6fa);
+  }
+
+
+
+  
+  .divider2_ourteam {
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 32px;
+    margin-left: 65px;
+    width: 100px;
+    height: 3px;
+    border-radius: 40px;
+    background: linear-gradient(135deg,#ce76f7,#f2a6fa);
+  }
+
+
+  .divider3_ourteam {
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 32px;
+    margin-left: 65px;
+    width: 100px;
+    height: 3px;
+    border-radius: 40px;
+    background: linear-gradient(135deg,#ce76f7,#f2a6fa);
+  }
+
+  .divider1_heading {
+    display: block;
+    margin-top: 8px;
+    margin-bottom: 32px;
+    margin-left: 220px;
+    width: 100px;
+    height: 3px;
+    border-radius: 40px;
+    background: linear-gradient(135deg,#ce76f7,#f2a6fa);
+  }
+  
+  .divider1_ourteam {
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 32px;
+    margin-left: 65px;
+    width: 100px;
+    height: 3px;
+    border-radius: 40px;
+    background: linear-gradient(135deg,#ce76f7,#f2a6fa);
+  }
+
+
+  .col-lg-4 .button a{/*style of register /submission button*/
+    border-radius: 10px;
+    border-width: 0px;
+    box-shadow: lightblue;
+    border: medium;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    background:rgb(143, 222, 248);
+    display: inline-block;
+    padding: 15px 32px;
+  }
+.ourteam_img img{
+    margin-left:-60px;border-radius: 45px;margin-top: -60px;height:220px;width: 339px;
+    position: relative;
+}
+
+  @media(max-width: 580px){
+    .divider1_heading {
+      display: block;
+      margin-top: 16px;
+      margin-bottom: 32px;
+      margin-left: 130px;
+      width: 100px;
+      height: 3px;
+      border-radius: 40px;
+      background: linear-gradient(135deg,#ce76f7,#f2a6fa);
+    }
+   
+    .ourteam_img img{
+      position: block;
+      height: 349px;width: 349.5px; margin-left: -60px;border-radius: 20px;
+    }
+    
+     
+    .col-lg-41{
+      padding-bottom: 10px;
+    }
+    
+    
+  .pricing-tables .item3 {
+    position: relative;
+    z-index: 2;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 60px;
+    text-align: center;
+    box-shadow: 0px 0px 15px rgba(0,0,0,0.1);
+    border-radius: 45px;
+    margin-left: 15px;
+    width: 349px;
+  }
+  
+  
+
+      .content::-webkit-scrollbar{
+        width: 5px;
+      }
+      }
+  

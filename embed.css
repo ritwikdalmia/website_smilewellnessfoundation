@@ -1,0 +1,41 @@
+
+.page-section {
+    position: relative;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    color: #898798;
+    overflow: hidden;
+  }
+
+  
+.subhead {
+    display: block;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: #000000;
+    font-weight: 500;
+    margin-bottom: 8px;
+  }
+  
+.title-section {
+    color: #000000;
+  }
+  .embed_p p{font-size: medium; font-size: 20px;color:black; width: 400px;}
+  
+  .divider {
+    display: block;
+    margin-top: 16px;
+    margin-bottom: 32px;
+    width: 100px;
+    height: 3px;
+    border-radius: 40px;
+    background: linear-gradient(135deg,#ce76f7,#f2a6fa,white);
+  }
+
+
+  @media(max-width:580px){
+    .embed_p p{
+      height: fit-content;
+      width:fit-content;
+    }
+  }

@@ -1,0 +1,135 @@
+
+
+
+
+  .title-section1{
+    width:1400px;
+    margin-left: 300px;
+  }
+  .card2{
+    margin-bottom: 10px;
+    width:1000px;
+    height:2060px;
+    margin-left: 150px;
+    position:relative;
+    border-radius: 20px;
+    cursor:pointer;
+    box-shadow: 0 0 20px rgb(145, 85, 255);
+
+}
+
+
+
+.divider_founder1 {
+  display: block;
+  margin-top: 16px;
+  margin-bottom: 32px;
+  margin-left: 400px;
+  width: 500px;
+  height: 3px;
+  border-radius: 40px;
+  background: linear-gradient(135deg,#ce76f7,#f2a6fa,white);
+}
+
+.content2{
+    margin-top: -25px;
+    position: absolute;
+    width: 100%;
+    height: 2130px;
+   
+    padding: 0.4em 1.5em;
+    font-size:10px;
+    border-radius: 10px;
+    transform:scale(0.9);
+    color:rgb(10, 10, 10);
+    border: 1px solid rgba(255,255,255,0.164);
+    box-shadow: 0 0 20px rgb(145, 85, 255);
+    overflow: hidden;
+    transition: all .4s;
+}
+
+.content2 h2{
+    font-size: 50px;
+}
+.content2 p{
+    font-size: 2.0em;
+    font-family: sans-serif;
+}
+.card2:hover .content2{
+    height:2120px;
+}
+
+
+
+
+
+
+
+
+  @media(max-width: 580px){
+    .divider1_features{
+      display: block;
+      margin-top: 16px;
+      margin-bottom: 32px;
+      margin-left: 130px;
+      width: 100px;
+      height: 3px;
+      border-radius: 40px;
+      background: linear-gradient(135deg,#ce76f7,#f2a6fa);
+    }
+    
+    .card2{
+      margin-top: 1px;
+      margin-left: 1px;
+       height:3200px;
+       margin-bottom: 20px;
+       width: 100%;
+       max-height: fit-content;
+       overflow-x: hidden;
+     }
+     .card2 {
+       width: 100%;
+     }
+     .content2{
+         margin-top: -100px;
+         height: 3450px;
+         
+     }
+     .content2 h2{
+       font-size: 50px;
+     }
+     .content2 p{
+      font-size: 15px;
+     }
+     .card2:hover .content2{
+         
+         height: 3450px;
+     }
+ 
+  .title-section1{
+    margin-left: 0px;
+    width: 350px;
+  }
+     .divider_founder {
+      display: block;
+      margin-top: 16px;
+      margin-bottom: 32px;
+      width: 250px;
+      margin-left: 50px;
+      height: 3px;
+      border-radius: 40px;
+        background: linear-gradient(135deg,#ce76f7,#f2a6fa,white);
+       }
+       .divider_founder1 {
+        display: block;
+        margin-top: 16px;
+        margin-bottom: 32px;
+        margin-left: 50px;
+        width: 250px;
+        height: 3px;
+        border-radius: 40px;
+          background: linear-gradient(135deg,#ce76f7,#f2a6fa,white);
+         }
+
+      }
+  
